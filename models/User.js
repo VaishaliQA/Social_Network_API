@@ -40,7 +40,6 @@ userSchema.virtual("friendCount").get(function () {
   return this.friends.length;
 });
 
-// BONUS
 userSchema.pre(
   "findOneAndDelete",
   { document: false, query: true },

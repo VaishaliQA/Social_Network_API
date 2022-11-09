@@ -1,7 +1,7 @@
 const { Schema, Types } = require("mongoose");
 const moment = require("moment");
 
-// Schema to Reaction User model
+// Schema to Reaction  model
 const ReactionSchema = new Schema({
   reactionId: {
     type: Schema.Types.ObjectId,
